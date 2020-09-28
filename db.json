@@ -1,0 +1,55 @@
+{
+  "loginAsAdmin": {
+    "displayName": "Mario Rossi",
+    "role": "admin",
+    "token": "abc123"
+  },
+  "loginAsGuest": {
+    "displayName": "Fabio Biondi",
+    "role": "guest",
+    "token": "xyz456"
+  },
+  "menu": {
+    "color": "white",
+    "bg": "black",
+    "items": [
+      {
+        "id": 1,
+        "label": "Homepage",
+        "action": "router",
+        "params": "home",
+        "role": "guest"
+      },
+      {
+        "id": 2,
+        "label": "Administration",
+        "action": "router",
+        "params": "admin",
+        "role": "admin"
+      },
+      {
+        "id": 2,
+        "label": "Links",
+        "action": null,
+        "params": null,
+        "role": "guest",
+        "items": [
+          {
+            "id": 1,
+            "label": "Google",
+            "action": "openURL",
+            "params": "http://www.google.com",
+            "role": "admin"
+          },
+          {
+            "id": 1,
+            "label": "Microsoft",
+            "action": "openURL",
+            "params": "http://www.microsoft.com",
+            "role": "guest"
+          }
+        ]
+      }
+    ]
+  }
+}
