@@ -1,5 +1,12 @@
 # ANGULAR TRAINING: CREAZIONE MENU DINAMICO
 
+### GOALS
+
+* Realizzare un menu dinamico acquisendo i dati da un'API REST
+* Visualizzare le voci del menu sulla base di:
+  * Il ruolo dell'utente loggato: `admin` o `guest`
+  * Il ruolo minimo assegnato ad ogni item affinché sia visible: `public` (visibili a tutti, anche agli utenti non loggati), `guest` (visibili solo agli utenti loggati, guest o admin) e `admin` (visibili solo agli amministratori)
+
 ![Preview](menu-preview.gif "Preview")
 
 # APIS:
