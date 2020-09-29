@@ -84,7 +84,7 @@ Applica ai menu items il colore del font e del background che ricevi dall'API `/
  
 ---
 
-### ESERCIZIO 3: Gestione Ruoli
+### ESERCIZIO 3: Gestione Ruoli e Permessi
 Al momento, visto che ancora non hai realizzato il login (allo scopo di acquisire il ruolo dell'utente), puoi simulare diversi scenari passando al componente un ruolo hard-coded, `admin` o `guest`, in modo da poter verificare velocemente il funzionamento di entrambi gli scenari.
 
 Nell'esempio seguente il primo menu simula lo scenario in cui l'utente loggato sia un `admin`. Il secondo simula uno scenario in cui l'utente è `guest`:
@@ -106,7 +106,7 @@ Se l'item `role` è:
 
 ---
 
-### Azioni
+### ESERCIZIO 4: Gestione Azioni
 Il componente `<app-super-menu>` dovrebbe emettere un evento custom `itemClick` quando l'utente clicca su un menu item che dovrà passare, come parametro, le informazioni sull'azione: azione e parametri.
  
 In questo modo, quando si utilizzerà questo componente in varie applicazioni e/o contesti, si potrà decidere di gestire le azioni in modo differente.
@@ -154,7 +154,7 @@ Oppure puoi anche provare a configurare un `json-server` per creare un server lo
 
 ---
 
-## SIMULARE LOGIN
+### ESERCIZIO 5: GESTIONE LOGIN
 
 Aggiungere due pulsanti per simulare il login come `guest` e come `admin` allo scopo di simulare un login (vedi preview del risultato finale all'inizio di questo documento).
 
