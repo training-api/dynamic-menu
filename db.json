@@ -18,10 +18,24 @@
         "label": "Homepage",
         "action": "router",
         "params": "home",
-        "role": "guest"
+        "role": "public"
       },
       {
         "id": 2,
+        "label": "Contacts",
+        "action": "router",
+        "params": "contacts",
+        "role": "public"
+      },
+      {
+        "id": 1,
+        "label": "Dashboard",
+        "action": "router",
+        "params": "home",
+        "role": "guest"
+      },
+      {
+        "id": 3,
         "label": "Administration",
         "action": "router",
         "params": "admin",
